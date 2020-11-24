@@ -1,2 +1,2 @@
 # KQL
-KQL stuff
+Random KQL stuff
