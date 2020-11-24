@@ -1,0 +1,4 @@
+Heartbeat
+| summarize arg_max(TimeGenerated, *) by SourceComputerId
+| where IsGatewayInstalled == "true"
+| sort by Computer asc
