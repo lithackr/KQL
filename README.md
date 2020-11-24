@@ -1,2 +1,3 @@
 # KQL
-Random KQL stuff
+Random KQL QUERIES
+Sorted in MITRE ATT&CK FRAMEWORK FOLDERS
