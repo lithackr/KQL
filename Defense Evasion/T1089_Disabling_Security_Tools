@@ -1,0 +1,7 @@
+\\ xagt = FireEye
+\\ Sense = Defender ATP
+\\ WinDefend = Defender AV
+\\ wscsvc = Windows Security Center
+DeviceProcessEvents
+| where FileName == "sc.exe"
+| where ProcessCommandLine has_any ("stop xagt","stop Sense","stop WinDefend","stop wscsvc")
